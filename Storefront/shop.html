@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hannah Great Day - Shop</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+
+<body>
+    <header>
+        <h1>              
+           Shop            
+        </h1>
+        <nav class="navbar">
+            <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="shop.html">Shop</a></li>
+               <li><a href="cart.html">Cart</a></li>
+               <li><a href="contact.html">Contact</a></li>
+            </ul>
+         </nav>
+    </header>
+  <br><br>
+  <!-- ///* I am using w3schools.com code for the shopping card */ -->
+    <table>
+        <tr>
+        <td><div class="card">
+        <img class = "pics" src="img\MakeTodayHappy.JPG" alt="Make Today Happy">
+        <h1 class = "description">Personalized Glass Vase</h1>
+        <p class="price">$8.00</p>
+        <p>This piece will be sure to add a little happy to any home!</p>
+        <p><label for="qty">Quantity:</label><input type = "text" name="qty0" id="qty0" class="qty" value="" /></p>
+        <p><button type = "submit" onclick="addItemToCart(0)">Add to Cart</button></p>
+    </div></td>
+    <td>
+        <div class="card">
+            <img class = "pics" src="img\WildAtHeart.JPG" alt="Wild At Heart" >
+            <h1 class = "description">Personalized Glass Vase</h1>
+            <p class="price">$8.00</p>
+            <p>This piece is great for any free spirit friend in your life!</p>
+            <p><label for="qty">Quantity:</label><input type = "text" name="qty1" id="qty1" class="qty" value="" /></p>
+            <p><button type = "submit" onclick="addItemToCart(1)">Add to Cart</button></p>
+        </div>
+</td>
+    <td>
+        <div class="card">
+            <img class = "pics" src="img\OnMountainTime.JPG" alt="On Mountain Time" >
+            <h1 class = "description">Personalized Glass Vase</h1>
+            <p class="price">$8.00</p>
+            <p>This piece is great for anyone who loves to adventure outdoors!</p>
+            <p><label for="qty">Quantity:</label><input type = "text" name="qty2" id="qty2" class="qty" value="" /></p>
+            <p><button type = "submit" onclick="addItemToCart(2)">Add to Cart</button></p>
+        </div>
+    </td></tr></table>
+     
+
+</body>
+
+
+<footer>
+    
+</footer>
+
+<script src="itemsData.js"></script>
+<script src="./utils.js"></script>
+<script src="./home.js"></script>
+
+</html>

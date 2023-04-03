@@ -1,0 +1,288 @@
+html {
+	height: 100%;
+	font-size: 12px;
+}
+img {
+	max-width: 100%;
+	height: 80%;
+}
+aside{
+	
+	margin-left: 10%;
+	margin-bottom: 5%;
+	
+
+}
+body article {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+video {
+	width: 50%;
+}
+
+#paypal-button-container {
+	width: 10%;
+	display: block;
+    margin: 0 auto;
+
+}
+
+/* I am using w3schools.com layout for card */
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: 200px;
+	margin: auto;
+	text-align: center;
+	font-family: arial;
+  }
+  
+  .price {
+	color: grey;
+	font-size: 22px;
+  }
+  
+  .pic1 {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 80%;
+	  
+  }
+
+  .card button {
+	border: none;
+	outline: 0;
+	padding: 12px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
+  }
+  
+  .btn {
+	  margin-left: 85%;
+	  margin-right: 5%;
+	  width: 10%;
+  }
+  
+  .card button:hover {
+	opacity: 0.7;
+  }
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	width: 80%;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+/* body p {
+	font-family: "Lucida Grande", sans-serif;
+	font-size: 1.5em;
+
+} */
+nav {
+	width: 50%;
+	float: left;
+	margin: 6% 2% 0% 0%;
+}
+article {
+	width: 0%;
+	float: left;
+	font-size: 0.9em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+	width: 50%;
+	margin-left: 10%;
+	font-size: 0.em;
+}
+
+nav ul li {
+	font-family: "Lucida Grande", sans-serif;
+	font-size: 0.8em;
+}
+
+
+.navbar a:hover {
+	background-color: #ddd; 
+	color: black; 
+	width: 100%;
+  }
+
+
+body h1 {
+	color: rgb(99, 96, 97);
+	margin: 1%;
+	font-family: "Lucida Grande", sans-serif;
+	font-size: 1.5em;
+
+}
+
+body article h1 {
+	font-size: 1.15em;
+}
+
+header img {
+	float: none;
+	width: 96%;
+	margin: 2% 2% 0% 2%;
+}
+
+header h1 {
+	text-align: center;
+
+}
+blockquote {
+	font-size: 1em;
+	width: 100%;
+	font-family: "Lucida Grande", sans-serif;
+	margin: 0 0 4% 0;
+}
+footer {
+	text-align: center;
+	font-size: 0.6em;
+	margin-top: 4%;
+	border-top: 3px solid rgba(149, 165, 166, 1);
+	font-family: "Lucida Grande", sans-serif;
+	clear: both;
+	padding-bottom: 20px;
+}
+
+
+@media only screen and (min-width: 481px) 
+{
+html, body {
+	font-size: 16px;
+}
+
+body {
+	width: 89.9%;
+	height: 100%;
+	padding-left: 1%;
+	padding-right: 1%;
+	margin-left: auto;
+}
+
+header h1 {
+   font-size: 2em;
+}
+
+body article h1 {
+   font-size: 1.75em;
+}
+
+article {
+	width: 94%;
+	float: none;
+	margin: 0px auto;
+}
+
+article img {
+	float: right;
+	width: 35%;
+	margin: 0% 0% 5% 2%;
+}
+nav ul li {
+	display: table-cell;
+	width: 10%;
+	text-align: center;
+	margin: 2%;
+	border: thin solid rgb(99, 100, 99);
+}
+
+nav {
+	display: table;
+	width: 90%;
+	margin: auto;
+	float: none;
+}
+nav ul {
+	display: table-row;
+	margin: 0;
+}
+
+blockquote {
+	
+  background: rgb(241, 241, 241);
+  border-left: 10px solid rgba(210, 215, 211, 1);
+  quotes: "\201C""\201D""\201C""\2019";
+  	border-radius: 10%;
+	width: 30%;
+	margin: 5%;
+	float: left;
+	padding: 1%;
+}
+blockquote p:first-of-type:before {
+  color: rgba(149, 165, 166, 1);
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin: 0.2em 0.1em 0em 0.25em;
+  vertical-align: -0.4em;
+}
+
+
+footer {
+	font-size: 0.9em;
+}
+
+
+@media only screen and (min-width: 769px)
+ {
+html, body {
+	font-size: 20px;
+}
+
+html {
+	background-color: rgba(210, 215, 211, 1);
+}
+/* body {
+	height: 100%;
+	width: 75%;
+	max-width: 800px;
+	padding-left: 1%;
+	padding-right: 1%;
+	background-color: rgb(211, 197, 253);
+	box-shadow: rgb(190, 187, 187) 20px 0px 25px,  rgb(190, 187, 187) -20px 0px 25px;
+} */
+
+article p {
+	font-family: "Lucida Grande", sans-serif;
+	font-size: 1;
+}
+
+table {
+	width: 100%;
+	border: 1px solid rgb(99, 98, 98);
+	border-collapse: collapse;
+}
+
+td {
+	width: 20%;
+	border: 1px solid rgb(97, 96, 96);
+	border-collapse: collapse;
+	text-align: center;
+}
+
+video {
+	width: 30%;
+	float: right;
+	margin: auto;	
+}
+.cart{
+	font-size: small;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+}
+
+ }}
